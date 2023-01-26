@@ -93,6 +93,7 @@
     <at.markushi.ui.CircleButton
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:src="@drawable/tek"
         android:layout_marginTop="120dp"
         app:cb_color="@color/button_background_color"
         app:cb_pressedRingWidth="8dip"
@@ -130,7 +131,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_margin="16dp"
-        app:tabGravity="center"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
         android:background="@drawable/tab_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

@@ -1,11 +1,13 @@
 package com.example.fashionui
 
 import android.os.Bundle
+import android.util.TypedValue
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.view.size
 import com.example.fashionui.databinding.FragmentFirstBinding
 import com.example.fashionui.databinding.FragmentSecondBinding
 import com.example.fashionui.viewPager.ViewPagerAdapter
@@ -37,6 +39,8 @@ class SecondFragment : Fragment() {
         TabLayoutMediator(binding.tabLayout,binding.viewPager){tab,position->
 
             tab.text = tabLayoutTitles[position]
+
+
 
         }.attach()
 
