@@ -17,5 +17,7 @@
     <style name="TabLayoutStyle" parent="Widget.MaterialComponents.TabLayout">
         <item name="android:textSize">5sp</item>
         <item name="android:textAllCaps">true</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
     </style>
 </resources>

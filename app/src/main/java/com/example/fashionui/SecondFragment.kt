@@ -49,5 +49,7 @@ class SecondFragment : Fragment() {
             as TextView
             binding.tabLayout.getTabAt(i)?.customView = textView
         }
+        binding.tabLayout.setSelectedTabIndicatorHeight(0)
+
     }
 }
